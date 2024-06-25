@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sytles/style.css">
+    <title>Criptografia De Textos</title>
+    <script src="js's/app.js"></script>
+</head>
+<body>
+    
+    <main class="conteudo">
+        <img src="./assets/alura logo.png" alt="Logo Alura" class="logoalura">
+        <section class="conteudo__entrada">
+            
+            <input type="text" name="" id="entrada" placeholder="Digite Seu Texto">
+            <span>
+                <img src="assets/bi_exclamation-circle-fill.png" alt="Simbolo De Atenção" class="imagem__exclamacao">
+                <p class="conteudo__entrada__textoatencao">Apenas letras minúsculas e sem acento.</p>
+            </span>
+            <span>
+                <button class="conteudo__entrada__botoes" id="criptografar" onclick="botao1()">Criptografar</button>
+                <button class="conteudo__entrada__botoes" id="descriptografar" onclick="botao2()">Descriptografar</button>
+            </span>
+        </section>
+
+        <span class="conteudo__saida">
+            <img src="./assets/svg campo livre.svg" alt="pessoa sentada com uma lupa na mão" class="conteudo__saida__imagem">
+            <h2 class="conteudo__saida__texto__titulo" id="mensagem1">Nenhuma mensagem encontrada</h2>
+            <p class="conteudo__saida__texto">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <button class="conteudo__entrada__botoes" id="botaocopiar" onclick="copiandotexto()">Copiar</button>
+        </span>
+    </main>
+</body>
+</html>

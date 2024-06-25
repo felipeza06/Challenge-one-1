@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --backgroundcolor: #F3F5FC;
+    --backgroundcolorsaida: white; 
+    --titulocolor: #343A40;
+    --textcolor: #0A3871;
+    --backgroundcoloralternative: #D8DFE8:
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: var(--backgroundcolor);
+    font-family: "Inter", sans-serif;
+    direction: ltr;
+}
+
+.logoalura {
+    align-self: flex-start;
+    margin: 40px;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+.conteudo__entrada{
+    display: flex;
+    flex-direction: column;
+}
+
+#entrada {
+    width: 680px;
+    margin: 140px 0px 415px 0px;   
+    color: #0A3871;
+    font-size: 32px;
+    font-weight: 400;
+    background-color: transparent;
+    border: none;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.imagem__exclamacao{
+    width: 1.5%;
+}
+
+.conteudo__entrada__textoatencao{
+    color: var(--titulocolor);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.conteudo__entrada__botoes{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#criptografar{
+    background-color: var(--textcolor);
+    color: var(--backgroundcolor);
+    border: solid var(--textcolor);
+}
+
+#descriptografar{
+    background-color: var(--backgroundcoloralternative);
+    border: solid var(--textcolor);
+}
+
+.conteudo__saida {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 37rem;
+    border-radius: 32px;
+    background-color: white;
+    padding: 32px;
+    margin: 40px;
+    text-align: center;
+}
+
+.conteudo__saida__imagem{
+    width: 100%;
+    padding: 32px;
+}
+
+.conteudo__saida__texto{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 16px 32px;
+    color: var(--textocolor);
+}
+
+#botaocopiar{
+    display: none;
+    background-color: var(--textcolor);
+    color: var(--backgroundcolor);
+    border: solid var(--textcolor);
+    word-wrap:break-word;
+}
+
+.conteudo__saida__texto__titulo{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--titulocolor);
+}
+
