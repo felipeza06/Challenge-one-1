@@ -52,7 +52,6 @@ function botao1() {
 function copiandotexto() {
     let textosaida = document.getElementsByClassName('conteudo__saida__texto')[0];
     navigator.clipboard.writeText(textosaida.innerText)
-    console.log(1)
 }
 
 function botao2(){
@@ -77,7 +76,7 @@ function botao2(){
     let frasefinal = textodoinput.replace(regex, match => regrasdecriptografia[match]);
 
 
-    console.log(frasefinal)
+    
     
     if(/[ÁÉÍÓÚÀÈÌÒÙÂÊÎÔÛÃÕÄËÏÖÜáéíóúàèìòùâêîôûãõäëïöü]/.test(frasefinal)){ 
         console.log('true')
